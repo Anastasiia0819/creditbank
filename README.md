@@ -49,3 +49,9 @@
 └── README.md                # Документация по проекту
 
 
+# Установка зависимостей
+pip install -r requirements.txt
+
+# Запуск тестов
+pytest -v tests/
+
