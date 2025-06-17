@@ -33,13 +33,12 @@
 ├── tests/                   # Директория для тестов
 │   ├── ui/                  # UI тесты (Selenium)
 │   │   ├── __init__.py
-│   │   ├── test_search_ui.py    # Пример UI теста для поиска клиентов
+│   │   ├── test_search_client.py    # Пример UI теста для поиска клиентов
 │   │
 │   ├── api/                 # API тесты (requests или Playwright)
 │   │   ├── __init__.py
-│   │   ├── test_search_api.py     # Пример API теста для поиска клиентов
+│   │   ├── test_get_client.py     # Пример API теста для поиска клиентов
 │   │
-│   └── test_all.py          # Главный файл для запуска всех тестов
 │
 ├── reports/                 # Папка для отчетов
 │   └── allure-results/      # Результаты для Allure
